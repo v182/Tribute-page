@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tribute to Steve Jobs</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+</head>
+<body>
+
+  <section class="hero" data-aos="fade-in">
+    <h1>Steve Jobs</h1>
+    <p>1955 – 2011</p>
+    <div class="play-icon" onclick="scrollToQuote()">▶</div>
+  </section>
+
+  <section class="quote" id="quote" data-aos="fade-up">
+    <p>"Design is not just what it looks like and feels like. Design is how it works."</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Steve_Jobs_with_red_shawl_edit2.jpg/640px-Steve_Jobs_with_red_shawl_edit2.jpg" alt="Steve Jobs" />
+  </section>
+
+  <section class="bio" data-aos="fade-up">
+    <h2>Biography</h2>
+    <p>
+      Steven Paul Jobs was an American entrepreneur, industrial designer, and business magnate. He was the chairman, chief executive officer (CEO), and co-founder of Apple Inc., the chairman and majority shareholder of Pixar, a member of The Walt Disney Company's board of directors following its acquisition of Pixar, and the founder, chairman, and CEO of NeXT.
+    </p>
+    <p>
+      Jobs is widely recognized as a pioneer of the personal computer revolution of the 1970s and 1980s, along with Apple co-founder Steve Wozniak. Jobs was known for his perfectionism, product vision, and charisma. His work on the iPhone changed the mobile phone industry and made Apple one of the most valuable companies in the world.
+    </p>
+  </section>
+
+  <section class="tribute-form" data-aos="fade-up">
+    <h2>Leave a Tribute</h2>
+    <form id="tributeForm">
+      <input type="text" placeholder="Your Name" required />
+      <textarea placeholder="Your Message (you can use 😊👍)" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <ul id="messages"></ul>
+  </section>
+
+  <footer>
+    <p>Made with ❤️ by Harry</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

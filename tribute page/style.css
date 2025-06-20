@@ -1,0 +1,146 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #fff;
+  margin: 0;
+  transition: 0.3s;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: url("steev jobs.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #ccc;
+  text-shadow: 1px 1px 4px #000;
+}
+
+.play-icon {
+  margin-top: 20px;
+  font-size: 40px;
+  color: #aaa;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.play-icon:hover {
+  color: #fff;
+  transform: scale(1.2);
+}
+
+.quote {
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.quote img {
+  max-width: 300px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.bio {
+  padding: 40px 20px;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.bio h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.bio p {
+  font-size: 18px;
+  color: #bbb;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.tribute-form {
+  padding: 40px 20px;
+  background-color: #1c1c1c;
+}
+
+.tribute-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+form button {
+  background-color: #555;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul#messages {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+  max-width: 500px;
+  margin-inline: auto;
+}
+
+ul#messages li {
+  margin-bottom: 15px;
+  padding: 10px;
+  background: #333;
+  border-radius: 8px;
+}
+
+.avatar {
+  background: #eee;
+  color: #111;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #000;
+  color: #aaa;
+  font-size: 14px;
+}
